@@ -1,0 +1,15 @@
+{
+	<ignore_readline.supp>
+	Memcheck:Leak
+	...
+	fun:readline
+	...
+}
+
+{
+	<ignore_readline.supp>
+	Memcheck:Leak
+	...
+	fun:add_history
+	...
+}
